@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+#right::-webkit-scrollbar{
+  display: none;
+}
+
+@theme {
+  --font-poppins:"Inter" ,"SF Pro Display","poppins", "Helvetica NeueVerdana", sans-serif;
+}
+
