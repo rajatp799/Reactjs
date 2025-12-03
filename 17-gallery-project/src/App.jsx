@@ -33,7 +33,7 @@ const App = () => {
       </div>
 
       <div className='flex justify-center text-center py-5 gap-2'>
-        <button style={{ opacity: index == 1 ? 0.5 : 1}} 
+        <button style={{ opacity: index == 1 ? 0.5 : 1}}
         className='h-10 w-30 bg-yellow-500 rounded text-center cursor-pointer font-bold active:scale-95 ' onClick={() => {
           if (index > 1) {
             setindex(index - 1)
